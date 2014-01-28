@@ -27,4 +27,6 @@ struct bit_board R_ALL_POS;
 struct bit_board B_ALL_POS;
 struct bit_board ALL_POS;
 
+void board_init(void);
+
 #endif
