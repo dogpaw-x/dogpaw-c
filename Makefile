@@ -29,7 +29,7 @@ $(ODIR)/%.o : %.c
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:
-	-rm -rf $(ODIR)/%.o $(TARGET)
+	-rm -rf $(ODIR)/*.o $(TARGET)
 
 sinclude $(SRC:.c=.d)
 
