@@ -4,7 +4,6 @@ static void board_addpos(struct bit_board *b, uint8_t pos)
 {
 	if (pos == 0)
 		return;
-	assert(pos > 0 && pos <= 0xff);
 	b->row[pos & 0xf0] |= 0x1 << (pos & 0x0f);
 }
 

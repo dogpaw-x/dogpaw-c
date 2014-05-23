@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <assert.h>
 #include "board_init_data.h"
+#include "list.h"
+#include "debug.h"
 
 #define NUM_BOARD (32 + 3)  /* 32 个棋子 + 3 个位棋盘 */
 #define ROW_BOARD 16
